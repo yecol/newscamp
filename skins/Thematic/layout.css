@@ -1,0 +1,100 @@
+﻿/*---主体样式---*/
+  #container{width:980px;margin:0 auto;text-align:center;}
+  
+  /*---顶部样式---*/
+  #container #header{height:120px;width:980px;margin:0 auto;border-bottom:1px solid #bbb;}
+  #container #header #blogname{margin:0 auto;padding:10px 0px 21px 10px;font-size:25px;color:#000;text-align:left;font-weight:bold;}
+  #container #header #blogname #blogTitle{font-size:12px;margin:3px 3px 3px 8px;height:16px;color:#666;}
+  #container #header #menu{height:28px;padding-left:20px;text-align:right;/*visibility:hidden;*/}
+  #container #header #menu #Left{width:1px;height:35px;float:left;background:#bbb;}
+  #container #header #menu #Right{width:0px;float:right;}  
+  #container #header #menu ul{list-style:none;margin:0px 6px 0px 0px!important;margin:0px 3px 0px 0px;padding:0px;height:28px;float:left;} 
+  #container #header #menu ul li{float:left;height:28px;}  
+   .menuL{}
+   .menuR{}  
+   .menuDiv{}/*---菜单分割线---*/
+  /*---内容样式---*/
+  #container #Tbody{width:980px;margin:0 auto;padding:30px 0px;text-align:left;border-bottom:1px solid #bbb;overflow:hidden;}
+  /*---工具条--*/
+  #sidebar{float:right;width:280px;margin:0px;text-align:center;color:#574D31;border:1px solid #bbb;}
+  #innersidebar{}
+  #sidebar-topimg{}
+  #sidebar-bottomimg{}
+  /*---工具箱样式--*/
+  .sidepanel{margin:0 auto!important; margin:0px;padding:10px 5px;}
+  .Ptitle{height:24px;line-height:180%;text-align:left;padding-left:5px;font-weight:bold;font-size:14px;margin:0px}  
+  .Pcontent{text-align:left;padding-left:10px;padding-top:0px;line-height:160%}  
+  .Pfoot{margin:0px 0px 15px 0px;}  
+  /*---主内容--*/ 
+  #mainContent{float:left;width:668px;text-align:center;border:1px solid #bbb;}
+  #innermainContent{overflow:visible;}
+  #mainContent-topimg{}
+  #mainContent-bottomimg{}
+  .content-width{width:100%;margin:auto;}/*--主内容元素的全局宽度--*/
+  /*---主内容页数--*/
+  .pageContent{margin:0 auto;padding:3px;text-align:left;height:18px;} 
+  .NavTitle{float:left;font-weight:bold;}
+  .page{padding-right:5px;height:18px;}
+  .page ul{list-style:none;margin:0px;padding:0px} 
+  .page ul li{float:left;padding:0px 3px 0px 3px;} 
+  .page ul li.PageL {width:9px;height:16px;}
+  .page ul li.PageR {width:9px;height:16px;}
+  .PageLbutton{background:url('../../images/BttnLeft.gif') 0px 0px;width:9px;height:16px;display:block;}
+  .PageRbutton{background:url('../../images/BttnRight.gif') 0px 0px;width:9px;height:16px;display:block;}
+  /*---内容框--*/
+  .Content{margin:0 auto;padding:10px 5px;font-family:Georgia,Courier New,宋体;}    
+  /*---日志标题框--*/
+  .Content-top{padding:2px;text-align:left;overflow:hidden;}
+  .CateIcon {display:none;}
+  .Content-top .ContentLeft{display:none;}
+  .Content-top .ContentRight{display:none;}
+  .Content-top .ContentTitle{padding:0px;font-size:18px;}
+  .Content-top .ContentAuthor{margin-top:-10px;font-size:12px;font-weight:normal;color:#666;} 
+  /*---日志内容框--*/
+  .Content-body{margin:8px auto;overflow:hidden;text-align:left;width:96%;line-height:150%}
+  /*---日志内容底部--*/
+  .Content-bottom{text-align:right;border-bottom:1px dotted #bbb;height:30px;margin-top:-30px;padding:2px;}
+  .Content-bottom .ContentBLeft{}
+  .Content-bottom .ContentBRight{}  
+
+  /*---日志其他信息--*/
+  .Content-Info {margin:0px 4px 6px 4px;padding:0px}
+  .Content-Info .InfoAuthor{text-align:left}
+  .Content-Info .InfoOther{float:right;text-align:right;}
+  /*--评论框--*/
+  .comment{text-align:left;margin:0px 12px 4px 12px}
+  .commentinfo{font-size:11px;color:#000;}
+  .commenttop{border-bottom:1px dotted #bbb;padding:4px;}
+  .commentcontent{padding:10px;line-height:140%;overflow:hidden;width:94%}
+  /*---UBB框--*/ 
+  .UBBPanel{border:1px solid #bbb;}
+  .UBBTitle{font-weight:bold;padding:4px;background:url(ubbback.gif) no-repeat 400px 0px;border-bottom:1px dotted #bbb;}
+  .UBBContent{padding:6px;line-height:160%;}
+  .UBBContent TEXTAREA {width:500px;margin-bottom:2px;}
+  :link.UBBLink,:visited.UBBLink{font-size:11px;font-family:verdana;}
+  /*---回复框--*/
+  .replayPanel {margin:5px -3px -3px 10px;padding-left:30px;border:0px;border-left:0px;}
+  /*---信息框--*/
+  #MsgContent{border:1px solid #bbb;width:450px;padding:1px;margin:auto;}
+  #MsgContent #MsgHead{padding:10px 30px;color:#000;font-size:18px;text-align:left;font-weight:bold;}
+  #MsgContent #MsgBody{padding:4px;line-height:180%;}
+
+  .LDialog{margin:3px auto;padding:1px;}
+  .LDialog .LHead{padding:1px;color:#000;text-align:center;font-weight:bold;}
+  .LDialog .LBody{padding:4px;line-height:200%;}
+
+
+/*信息框图标以及文字*/
+   .MessageText{height:50px;margin-right:38px;}
+   .MessageIcon{background:url(../../images/Message.jpg) no-repeat;width:48px;height:48px;float:left;}
+   .ErrorIcon{background:url(../../images/Error.jpg) no-repeat;width:48px;height:48px;float:left;}
+   .WarningIcon{background:url(../../images/Warning.jpg) no-repeat;width:48px;height:48px;float:left;}   
+   .QuestionIcon{background:url(../../images/Question.jpg) no-repeat;width:48px;height:48px;float:left;}
+  /*---底部样式---*/
+  #container #foot{font-family:Georgia;margin:6px 0 0 0;height:50px;padding-top:10px;}
+  /*---文件上传框样式---*/
+  .attachmentBody{  margin:0px;font-size:12px;  }
+  /*---去除RSS图标样式---*/
+ 
+  #Side_Category a img{display:none}
+ 
